@@ -8,6 +8,7 @@ periodo di riferimento e valore.
 
 import sdmx
 import pandas as pd
+from istat import Istat
 
 
 def get_label_it(code) -> str:
@@ -66,10 +67,16 @@ def main():
 
 
 if __name__ == "__main__":
-    pd.set_option("display.max_columns", None)
-    df_finale = main()
-    # print(df_finale.head(20))
-    print(df_finale)
+    # 0. Create object
+    istat = Istat()
+    istat.get_data()
+    # # 1. Download data from Istat
+    # download
+    # # 2. Process data
+    # pd.set_option("display.max_columns", None)
+    # df_finale = main()
+    # # print(df_finale.head(20))
+    # print(df_finale)
 
-    # opzionale: salva su disco
-    df_finale.to_csv("disoccupazione.csv", index=False)
+    # # opzionale: salva su disco
+    # df_finale.to_csv("disoccupazione.csv", index=False)
