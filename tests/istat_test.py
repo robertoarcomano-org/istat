@@ -11,3 +11,7 @@ def test_prints_ok(capsys):
     captured = capsys.readouterr()
     assert captured.out == "Downloading data from Istat...\nData downloaded.\n"
     assert captured.err == ""
+
+def test_dataflows_number():
+    assert len(Istat.data) == 6
+    

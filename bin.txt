@@ -1,0 +1,5 @@
+https://esploradati.istat.it/SDMXWS/rest/data/IT1,150_915_DF_DCCV_TAXOCCU1_1,1.0/all/ALL/?detail=full&dimensionAtObservation=TIME_PERIOD",
+
+https://esploradati.istat.it/SDMXWS/rest/data/IT1,150_915_DF_DCCV_TAXOCCU1_2,1.0/all/ALL/?detail=full&dimensionAtObservation=AllDimensions
+https://esploradati.istat.it/SDMXWS/rest/data/IT1,150_915_DF_DCCV_TAXOCCU1_3,1.0/all/ALL/?detail=full&dimensionAtObservation=AllDimensions
+
